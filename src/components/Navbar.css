@@ -1,0 +1,14 @@
+
+
+section.navbar-section{
+    position: absolute;
+}
+
+
+@media screen and (min-width: 1200px){
+
+    section.navbar-section{
+        padding: 0 6em;
+    }
+
+}
