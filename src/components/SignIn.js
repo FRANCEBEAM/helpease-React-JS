@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { AiOutlineUser } from 'react-icons/ai'
 import { AiOutlineLock } from 'react-icons/ai'
 import './SignIn.css'
@@ -32,7 +33,7 @@ const SignIn = () => {
                 
               </form>
 
-              <button className="bg-[#8338EC] text-white font-bold block w-full p-4 mt-14 rounded-md hover:bg-[#4d1a96] transition-duration-700 ease-in-out focus:outline-none focus:ring focus:ring-violet-400 text-lg">Sign In</button>
+              <Link to='/dashboard' className="bg-[#8338EC] text-white font-bold block w-full p-4 mt-14 rounded-md hover:bg-[#4d1a96] transition-duration-700 ease-in-out focus:outline-none focus:ring focus:ring-violet-400 text-lg">Sign In</Link>
             </div>
             {/* End of form */}
           </div>

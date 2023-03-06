@@ -1,6 +1,7 @@
 import React from 'react'
-import './Navbar.css'
-import { SiAnydesk } from 'react-icons/si'
+import { Link } from 'react-router-dom';
+import './Navbar.css';
+import { SiAnydesk } from 'react-icons/si';
 
 
 const Navbar = () => {
@@ -13,7 +14,6 @@ const Navbar = () => {
             HELPEASE
           </h1>
         </div>
-        
       </div>
     </section>
   )
