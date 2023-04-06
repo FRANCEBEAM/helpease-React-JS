@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import SignIn from './components/SignIn';
 import Dashboard from './routes/Dashboard';
+import Tickets from './routes/Tickets';
 
 const AppLayout = () => {
   return (
@@ -33,7 +34,11 @@ const router = createBrowserRouter([
         },
         {
           path: "dashboard",
-          element: [<Sidebar />, <Dashboard />,],
+          element: [<Sidebar />, <Dashboard />],
+        },
+        {
+          path: "tickets",
+          element: [<Sidebar />,<Tickets />],
         }
          
 
